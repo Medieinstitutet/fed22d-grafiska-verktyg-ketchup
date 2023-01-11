@@ -1,11 +1,12 @@
 <template>
     <div>
         <h2>ImagePlay.vue</h2>
-        <pre>
-            {{ imageData }}
-        </pre>
         <button> </button>
-        <img: src="''+images[]" alt="recepies[]alt" width="300" height="200" loading="lazy" />
+        <pre>
+            {{ imageData[0] }}
+        </pre>
+        <!-- bilder måste ligga i public-mappen för att funka -->
+        <img :src="imageData[0].img1" :alt="imageData[0].alt1" width="300" height="200" loading="lazy" />
         <button> </button>
 
 

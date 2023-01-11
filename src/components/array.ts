@@ -24,7 +24,7 @@ let recepies: {id: number; name: string; ingredient: string; desc: string; image
       id: 2,
       images: [
         {
-          img1: "../../assets/images/Ketchupsoppa-1.webp",
+          img1: "/Ketchupsoppa-1.webp",
           img2: "../../assets/images/Ketchupsoppa-2.webp",
           img3: "../../assets/images/Ketchupsoppa-3.webp",
           alt1: "Ketchupsoppa i skål med kvistar av timjan",
